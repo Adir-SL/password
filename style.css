@@ -37,6 +37,10 @@ body{
     align-items: center;
     gap: 6vw;
 }
+.labelPass{
+    font-size: 1.2vw;
+    color: rgba(0,0,0,0.6);
+}
 .inputPass{
     font-size: 3vw;
     border: 0.2vw solid black;
