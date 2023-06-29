@@ -58,4 +58,5 @@ body{
     width: calc(100% - 2vw);
     justify-content: space-between;
     padding: 1vw;
+    background-color: white;
 }
