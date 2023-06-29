@@ -115,9 +115,7 @@ a svg{
 a:hover svg{
     stroke: black;
 } 
-/* a:hover{
-    background-color: lightgray;
+h1{
+    font-size: 2vw;
+    white-space: pre;
 }
-a:hover svg{
-    stroke: black;
-} */
