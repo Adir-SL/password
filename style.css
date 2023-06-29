@@ -1,5 +1,5 @@
 body{
-    background-color: yellow;
+    background-color: #ffe32c;
     color: #333333;
 }
 #wrapper{
@@ -11,6 +11,8 @@ body{
 }
 .flexDiv{
     display: flex;
+    flex-direction: column;
+    height: 100%;
     width: 80%;
     max-width: 900px;
     justify-content: center;
