@@ -8,6 +8,7 @@
 body{
     background-color: #eec800;
     color: black;
+    font-family: 'Inter', sans-serif;
 }
 #wrapper{
     position: absolute;
@@ -44,7 +45,6 @@ body{
     transition: box-shadow 300ms ease-in-out 0s;
 }
 .inputPass::placeholder{
-    font-family: sans-serif;
     color: rgba(0,0,0,0.2);
     transform: translateY(0.1vw);
 }
@@ -57,5 +57,4 @@ body{
     width: calc(100% - 2vw);
     justify-content: space-between;
     padding: 1vw;
-    font-family: sans-serif;
 }
