@@ -114,4 +114,10 @@ a svg{
 }
 a:hover svg{
     stroke: black;
-} 
+}
+@media screen and (max-width: 900px) {
+    .mobileFlex{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
