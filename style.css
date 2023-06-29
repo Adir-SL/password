@@ -80,6 +80,9 @@ body{
     padding: 1vmax;
     background-color: white;
 }
+.downloadFlex{
+    justify-content: flex-end;
+}
 a{
     position: relative;
     border-radius: 50%;
@@ -115,6 +118,9 @@ a svg{
 a:hover svg{
     stroke: black;
 }
+h2{
+    margin-right: 3vmax;
+}
 @media screen and (max-width: 900px) {
     .mobileFlex{
         flex-direction: column;
@@ -129,5 +135,12 @@ a:hover svg{
     }
     .labelPass{
         font-size: 2vmax;
+    }
+    p{
+        margin: 0;
+        line-height: 1.5;
+    }
+    h2{
+        font-size: 1.2em;
     }
 }
