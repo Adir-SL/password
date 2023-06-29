@@ -22,7 +22,11 @@ body{
 }
 .flexDiv{
     display: flex;
+}
+.vFlex{
     flex-direction: column;
+}
+.biggerFlex{
     height: 100%;
     width: 80%;
     max-width: 900px;
