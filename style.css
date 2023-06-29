@@ -65,7 +65,6 @@ body{
     box-shadow: 0 0 0 0.2vw black;
 }
 .smallFlex{
-    display: flex;
     border-radius: 1vw;
     width: calc(100% - 2vw);
     justify-content: space-between;
