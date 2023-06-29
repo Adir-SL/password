@@ -1,5 +1,12 @@
+@font-face {
+    font-family: "password";
+    src: url("font/Password.ttf") format("truetype");
+    font-weight: 100,200,300,400,500,600,700,800,900;
+    font-style: normal;
+    font-display: block;
+}
 body{
-    background-color: #ffe32c;
+    background-color: #eec800;
     color: black;
 }
 #wrapper{
@@ -27,5 +34,16 @@ body{
     padding: 1vw;
     color: black;
     border: 0.2vw solid black;
+    outline: none;
     background-color: transparent;
+    font-family: 'password', sans-serif;
+    box-shadow: 0 0 0 0 black;
+    transition: box-shadow 300ms ease-in-out 0s;
+}
+.inputPass::placeholder{
+    font-family: sans-serif;
+    color: rgba(0,0,0,0.2);
+}
+.inputPass:focus{
+    box-shadow: 0 0 0 0.2vw black;
 }
