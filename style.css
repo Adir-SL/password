@@ -119,5 +119,6 @@ a:hover svg{
     .mobileFlex{
         flex-direction: column;
         align-items: flex-start;
+        margin: 3vmax;
     }
 }
