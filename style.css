@@ -121,4 +121,10 @@ a:hover svg{
         align-items: flex-start;
         margin: 3vmax;
     }
+    .inputPass{
+        font-size: 4vmax;
+    }
+    .labelPass{
+        font-size: 2vmax;
+    }
 }
