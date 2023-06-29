@@ -26,8 +26,9 @@ body{
 .vFlex{
     flex-direction: column;
 }
-.gap{
+.inputFlex{
     gap: 0.4vw;
+    width: 100%;
 }
 .biggerFlex{
     height: 100%;
