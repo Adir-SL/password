@@ -53,8 +53,9 @@ body{
 }
 .smallFlex{
     display: flex;
-    border: 0.2vw solid black;
     border-radius: 1vw;
-    width: 100%;
-    justify-content: space-evenly;
+    width: calc(100% - 2vw);
+    justify-content: space-between;
+    padding: 1vw;
+    font-family: sans-serif;
 }
