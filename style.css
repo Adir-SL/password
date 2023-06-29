@@ -32,6 +32,7 @@ body{
     font-size: 3vw;
     border-radius: 1vw;
     padding: 1vw;
+    padding-bottom: 0.7vw;
     color: black;
     border: 0.2vw solid black;
     outline: none;
@@ -43,6 +44,7 @@ body{
 .inputPass::placeholder{
     font-family: sans-serif;
     color: rgba(0,0,0,0.2);
+    transform: translateY(0.1vw);
 }
 .inputPass:focus{
     box-shadow: 0 0 0 0.2vw black;
