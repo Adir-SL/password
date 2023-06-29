@@ -27,14 +27,14 @@ body{
     flex-direction: column;
 }
 .inputFlex{
-    gap: 0.4vw;
+    gap: 0.4vmax;
     width: 100%;
 }
 .biggerFlex{
     height: 100%;
     width: 80%;
     max-width: 900px;
-    gap: 6vw;
+    gap: 6vmax;
 }
 .centerFlex{
     justify-content: center;
@@ -45,19 +45,19 @@ body{
 }
 .endFlex{
     justify-content: flex-end;
-    gap: 1vw;
+    gap: 1vmax;
 }
 .labelPass{
-    font-size: 1.2vw;
+    font-size: 1.2vmax;
     color: rgba(0,0,0,0.6);
 }
 .inputPass{
-    font-size: 3vw;
-    border: 0.2vw solid black;
-    border-radius: 1vw;
-    padding: 1vw;
-    width: calc(100% - 2vw);
-    padding-bottom: 0.7vw;
+    font-size: 3vmax;
+    border: 0.2vmax solid black;
+    border-radius: 1vmax;
+    padding: 1vmax;
+    width: calc(100% - 2vmax);
+    padding-bottom: 0.7vmax;
     color: black;
     outline: none;
     background-color: transparent;
@@ -67,17 +67,17 @@ body{
 }
 .inputPass::placeholder{
     color: rgba(0,0,0,0.2);
-    transform: translateY(0.1vw);
+    transform: translateY(0.1vmax);
     font-family: 'Inter', sans-serif;
 }
 .inputPass:focus{
-    box-shadow: 0 0 0 0.2vw black;
+    box-shadow: 0 0 0 0.2vmax black;
 }
 .smallFlex{
-    border-radius: 1vw;
-    width: calc(100% - 2vw);
+    border-radius: 1vmax;
+    width: calc(100% - 2vmax);
     justify-content: space-between;
-    padding: 1vw;
+    padding: 1vmax;
     background-color: white;
 }
 a{
@@ -115,7 +115,3 @@ a svg{
 a:hover svg{
     stroke: black;
 } 
-h1{
-    font-size: 2vw;
-    white-space: pre;
-}
