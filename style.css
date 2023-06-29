@@ -43,6 +43,10 @@ body{
 .spaceFlex{
     justify-content: space-between;
 }
+.endFlex{
+    justify-content: flex-end;
+    gap: 1vw;
+}
 .labelPass{
     font-size: 1.2vw;
     color: rgba(0,0,0,0.6);
