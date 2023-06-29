@@ -27,14 +27,16 @@ body{
     max-width: 900px;
     justify-content: center;
     align-items: center;
+    gap: 6vw;
 }
 .inputPass{
     font-size: 3vw;
+    border: 0.2vw solid black;
     border-radius: 1vw;
     padding: 1vw;
+    width: calc(100% - 2vw);
     padding-bottom: 0.7vw;
     color: black;
-    border: 0.2vw solid black;
     outline: none;
     background-color: transparent;
     font-family: 'password', sans-serif;
@@ -51,4 +53,8 @@ body{
 }
 .smallFlex{
     display: flex;
+    border: 0.2vw solid black;
+    border-radius: 1vw;
+    width: 100%;
+    justify-content: space-evenly;
 }
