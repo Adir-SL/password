@@ -7,4 +7,5 @@ It's a unique font that has:
 
 
 > **Warning**
-This font is for design only, don't use it in development!
+
+> This font is for design only, don't use it in development!
