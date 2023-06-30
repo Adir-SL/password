@@ -7,5 +7,5 @@ It's a unique font that has:
 
 
 > **Warning**
-<br/>
+
 > This font is for design only, don't use it in development!
