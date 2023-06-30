@@ -6,6 +6,6 @@ It's a unique font that has:
 - Can be used in any design tool
 
 
-> **Warning**
+> **Note**
 
 > This font is for design only, don't use it in development!
