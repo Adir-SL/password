@@ -1,5 +1,5 @@
 # Live Demo:
-<a href="https://adir-sl.github.io/password" target="_blank">https://adir-sl.github.io/password</a>
+[go](https://adir-sl.github.io/password){:target="_blank" rel="noopener"}
 
 # password
 This is a repository for Password Font<br/>
