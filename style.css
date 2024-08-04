@@ -1,20 +1,27 @@
 @font-face {
     font-family: "password";
     src: url("font/Password.ttf") format("truetype");
-    font-weight: 100,200,300,400,500,600,700,800,900;
+    font-weight: 100, 200, 300, 400, 500, 600, 700, 800, 900;
     font-style: normal;
     font-display: block;
 }
-body{
+
+body {
     background-color: #eec800;
     color: black;
     font-family: 'Inter', sans-serif;
     transition: background-color 150ms ease-in-out 0s;
 }
-body:focus-within{
+
+body:focus-within {
     background-color: tomato;
 }
-#wrapper{
+
+body:focus-within {
+    background-color: tomato;
+}
+
+#wrapper {
     position: absolute;
     display: flex;
     width: 100%;
@@ -24,38 +31,47 @@ body:focus-within{
     justify-content: center;
     align-items: center;
 }
-.flexDiv{
+
+.flexDiv {
     display: flex;
 }
-.vFlex{
+
+.vFlex {
     flex-direction: column;
 }
-.inputFlex{
+
+.inputFlex {
     gap: 0.4vmax;
     width: 100%;
 }
-.biggerFlex{
+
+.biggerFlex {
     height: 100%;
     width: 80%;
     max-width: 900px;
     gap: 6vmax;
 }
-.centerFlex{
+
+.centerFlex {
     justify-content: center;
     align-items: center;
 }
-.spaceFlex{
+
+.spaceFlex {
     justify-content: space-between;
 }
-.endFlex{
+
+.endFlex {
     justify-content: flex-end;
     gap: 1vmax;
 }
-.labelPass{
+
+.labelPass {
     font-size: 1.2vmax;
-    color: rgba(0,0,0,0.6);
+    color: rgba(0, 0, 0, 0.6);
 }
-.inputPass{
+
+.inputPass {
     font-size: 3vmax;
     border: 0.2vmax solid black;
     border-radius: 1vmax;
@@ -69,25 +85,30 @@ body:focus-within{
     box-shadow: 0 0 0 0 black;
     transition: box-shadow 300ms ease-in-out 0s;
 }
-.inputPass::placeholder{
-    color: rgba(0,0,0,0.2);
+
+.inputPass::placeholder {
+    color: rgba(0, 0, 0, 0.2);
     transform: translateY(0.1vmax);
     font-family: 'Inter', sans-serif;
 }
-.inputPass:focus{
+
+.inputPass:focus {
     box-shadow: 0 0 0 0.2vmax black;
 }
-.smallFlex{
+
+.smallFlex {
     border-radius: 1vmax;
     width: calc(100% - 2vmax);
     justify-content: space-between;
     padding: 1vmax;
     background-color: white;
 }
-.downloadFlex{
+
+.downloadFlex {
     justify-content: flex-end;
 }
-a{
+
+a {
     position: relative;
     border-radius: 50%;
     width: 44px;
@@ -97,10 +118,12 @@ a{
     transition: transform 300ms ease-in-out 0s;
     transform: scale(1);
 }
-a:hover{
+
+a:hover {
     transform: scale(1.2);
 }
-a::before{
+
+a::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -113,38 +136,48 @@ a::before{
     transform: scale(0);
     transition: transform 300ms ease-in-out 0s;
 }
-a:hover::before{
+
+a:hover::before {
     transform: scale(1);
 }
-a svg{
+
+a svg {
     transition: stroke 300ms ease-in-out 0s;
 }
-a:hover svg{
+
+a:hover svg {
     stroke: black;
 }
-h2{
+
+h2 {
     margin-right: 3vmax;
 }
+
 @media screen and (max-width: 900px) {
-    .mobileFlex{
+    .mobileFlex {
         flex-direction: column;
         align-items: flex-start;
         margin: 3vmax;
     }
-    .downloadFlex{
+
+    .downloadFlex {
         margin: 3vmax;
     }
-    .inputPass{
+
+    .inputPass {
         font-size: 4vmax;
     }
-    .labelPass{
+
+    .labelPass {
         font-size: 2vmax;
     }
-    p{
+
+    p {
         margin: 0;
         line-height: 1.5;
     }
-    h2{
+
+    h2 {
         font-size: 1.2em;
     }
 }
