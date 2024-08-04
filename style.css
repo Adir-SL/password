@@ -107,6 +107,9 @@ body:has(.inputPass:placeholder-shown):focus-within {
 .downloadFlex {
     justify-content: flex-end;
 }
+.downloadFlex h2{
+    white-space: nowrap;
+}
 
 a {
     position: relative;
