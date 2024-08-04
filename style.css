@@ -14,10 +14,10 @@ body {
 }
 
 body:focus-within {
-    background-color: tomato;
+    background-color: #eec800;
 }
 
-body:focus-within {
+body:has(.inputPass:placeholder-shown):focus-within {
     background-color: tomato;
 }
 
