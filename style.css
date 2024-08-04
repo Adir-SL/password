@@ -157,6 +157,9 @@ a:hover svg {
 h2 {
     margin-right: 3vmax;
 }
+p{
+    color: #999999;
+}
 
 @media screen and (max-width: 900px) {
     .mobileFlex {
