@@ -107,7 +107,8 @@ body:has(.inputPass:placeholder-shown):focus-within {
 .downloadFlex {
     justify-content: flex-end;
 }
-.downloadFlex h2{
+
+.downloadFlex h2 {
     white-space: nowrap;
 }
 
@@ -157,7 +158,8 @@ a:hover svg {
 h2 {
     margin-right: 3vmax;
 }
-p{
+
+p {
     color: #999999;
 }
 
