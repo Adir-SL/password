@@ -9,6 +9,10 @@ body{
     background-color: #eec800;
     color: black;
     font-family: 'Inter', sans-serif;
+    transition: background-color 150ms ease-in-out 0s;
+}
+body:focus-within{
+    background-color: tomato;
 }
 #wrapper{
     position: absolute;
